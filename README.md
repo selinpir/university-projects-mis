@@ -192,3 +192,112 @@ Hedef değişken: `depresyon` (0 = yok, 1 = var)
 | `notebook.ipynb` | Python analiz notebook'u |
 | `student_depression.csv` | Kullanılan veri seti |
 
+# 📂 4- Staj Defteri 1 – Datakod Yazılım A.Ş.
+
+> **Staj Yeri:** Datakod Yazılım A.Ş. – İzmir (1998'den bu yana BT Hizmetleri & BT Danışmanlığı)  
+> **Departman:** Yazılım Geliştirme Ekibi  
+> **Süre:** Haziran – Temmuz 2025 (30 iş günü)
+
+## 📌 Özet
+
+Bu staj defteri, Datakod Yazılım A.Ş. bünyesinde gerçekleştirilen 30 iş günlük yazılım geliştirme stajının günlük aktivite kayıtlarını içermektedir. Staj boyunca .NET 8 ve Blazor Server teknolojileri kullanılarak hem araştırma çalışmaları yürütülmüş hem de bireysel bir e-ticaret projesi geliştirilmiştir.
+
+## 🗓️ Haftalık Süreç
+
+| Hafta | Konu |
+|---|---|
+| 1. Hafta | Teknoloji araştırması: Blazor, .NET MAUI, EF Core, Identity, DI, MudBlazor |
+| 2. Hafta | Microsoft Identity incelemesi; **TıklaaGame** oyun/web sitesi geliştirme |
+| 3. Hafta | Bireysel proje (PetSas) başlangıcı; proje mimarisi, roller, kayıt/giriş formları |
+| 4. Hafta | Navbar, Footer, Hakkımızda, SSS ve anasayfa geliştirme |
+| 5. Hafta | Ürün sınıfı, stok ve fiyat işlemleri, Ürün CRUD başlangıcı |
+| 6. Hafta | Kullanıcı sınıfı, admin paneli, sepet işlemleri |
+| 7. Hafta | Sipariş, ödeme, fatura işlemleri; projeyi mentore sunma |
+
+## 🛒 Bireysel Proje: PetSas E-Ticaret Sitesi
+
+**PetSas**, evcil hayvan ürünleri satan B2C bir e-ticaret uygulamasıdır.
+
+**Roller:** Admin · Tedarikçi · Kullanıcı  
+**Temel Özellikler:**
+- Ürün listeleme, detay, CRUD işlemleri
+- Sepet → Sipariş → Ödeme → Fatura akışı
+- Rol bazlı navbar ve sayfa erişimi (AuthorizeView)
+- Admin paneli: sipariş durumu güncelleme (Hazırlanıyor → Kargoda → Teslim Edildi)
+
+## 🛠️ Kullanılan Teknolojiler
+
+![.NET 8](https://img.shields.io/badge/.NET-8-purple) ![Blazor](https://img.shields.io/badge/Blazor-Server-blue) ![EF Core](https://img.shields.io/badge/EF_Core-Code--First-green) ![MudBlazor](https://img.shields.io/badge/MudBlazor-UI-pink) ![MSSQL](https://img.shields.io/badge/MSSQL-Database-red)
+
+- **Framework:** .NET 8 Blazor Server
+- **Kimlik Doğrulama:** Microsoft Identity (ASP.NET Core Identity)
+- **ORM:** Entity Framework Core (Code-First, Migration)
+- **UI Kütüphanesi:** MudBlazor + Bootstrap
+- **Veritabanı:** MSSQL Server
+
+# 📂 5- Sistem Analizi ve Tasarımı
+##  PetSAS – Veteriner ve Evcil Hayvan Yönetim Sistemi
+
+> **Ders:** Sistem Analizi ve Tasarımı(YBS 305) | **Dönem:** 2024–2025 Güz |
+
+## 👥 Ekip
+
+Bu proje bir takım çalışmasının ürünüdür; ekip arkadaşlarımla birlikte geliştirilmiştir.
+
+## 📌 Proje Özeti
+
+**PetSAS**, evcil hayvan sahiplerinin ve veterinerlerin karşılaştığı operasyonel sorunları (düzensiz randevular, sağlık kaydı eksikliği, stok takip zorluğu) çözmek amacıyla tasarlanmış entegre bir mobil dijital platformdur.
+
+## 🎯 Temel Özellikler
+
+**Evcil Hayvan Sahipleri için:**
+- Pet kaydı ve sağlık geçmişi yönetimi
+- Aşı takvimi takibi ve otomatik hatırlatmalar
+- Veteriner randevusu alma ve yönetme
+
+**Veterinerler için:**
+- Dijital hasta kayıtları (muayene, aşı, operasyon)
+- Randevu yönetimi ve çakışma önleme
+- İlaç/aşı stok takibi ve kritik stok bildirimleri
+- Raporlama paneli
+
+## 🛠️ Teknoloji Yığını
+
+| Alan | Teknoloji |
+|---|---|
+| Mobil Uygulama | Flutter (iOS & Android) |
+| Backend API | Node.js – RESTful API |
+| Veritabanı | PostgreSQL + Redis (önbellekleme) |
+| Bulut Altyapı | Microsoft Azure |
+| Ödeme | Stripe & İyzico entegrasyonu |
+| Güvenlik | OAuth 2.0, SSL, AES-256 şifreleme |
+| Proje Yönetimi | Scrum (12 sprint, 2'şer günlük) |
+
+## 📊 Analiz Çıktıları
+
+Proje kapsamında aşağıdaki sistem analizi artefaktları üretilmiştir:
+
+- Use Case Diyagramı
+- Akış Şemaları (As-Is / To-Be)
+- Veri Akış Diyagramı (DFD)
+- Varlık-İlişki (E-R) Diyagramı
+- Karar Ağacı ve HIPO Diyagramı
+- Veri Sözlüğü (Veri Akışı, Yapı, Depo, İşlem)
+- Veritabanı Tasarımı
+- Arayüz Tasarımları (Kullanıcı & Veteriner ekranları)
+
+## 📅 Proje Süreci
+
+- **Başlangıç:** 21.10.2024 | **Bitiş:** 24.12.2024 | **Toplam:** 71 gün
+- **Metodoloji:** Scrum – 12 Sprint
+
+## 💰 Finansal Özet
+
+| Metrik | Değer |
+|---|---|
+| Toplam Bütçe | 1.000.000 TL |
+| Net Bugünkü Değer (NBD) | +720.887 TL |
+| İç Verimlilik Oranı (İVO) | %39.68 |
+| Geri Ödeme Süresi | 2 yıl 4 ay |
+
+
